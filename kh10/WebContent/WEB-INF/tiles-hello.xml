@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!DOCTYPE tiles-definitions PUBLIC 
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+        
+        <tiles-definitions>
+      
+<!-- <definition template="/imageboard/template/template2.jsp" name="list">
+
+<put-attribute name="title" value="이미지 게시판"/>
+
+<put-attribute name="header" value="/imageboard/module/top.jsp"/>
+
+<put-attribute name="body" value="/imageboard/list_view.jsp"/>
+
+<put-attribute name="footer" value="/imageboard/module/bottom.jsp"/>
+
+</definition>
+
+
+<definition template="/imageboard/template/template2.jsp" name="writeForm">
+
+<put-attribute name="title" value="이미지 게시판"/>
+
+<put-attribute name="header" value="/imageboard/module/top.jsp"/>
+
+<put-attribute name="body" value="/imageboard/writeForm_view.jsp"/>
+
+<put-attribute name="footer" value="/imageboard/module/bottom.jsp"/>
+
+</definition> -->
+
+
+<definition template="/tiles/template/layout.jsp" name="hello">
+
+<put-attribute name="title" value="헬로우 월드"/>
+
+<put-attribute name="header" value="/tiles/template/header.jsp"/>
+
+<put-attribute name="menu" value="/tiles/template/menu.jsp"/>
+
+<put-attribute name="body" value="/tiles/template/hello_body.jsp"/>
+
+<put-attribute name="footer" value="/tiles/template/footer.jsp"/>
+
+</definition>
+
+
+<definition template="/tiles/template/layout.jsp" name="hello2">
+
+<put-attribute name="title" value="헬로우 월드2"/>
+
+<put-attribute name="header" value="/tiles/template/header2.jsp"/>
+
+<put-attribute name="menu" value="/tiles/template/menu.jsp"/>
+
+<put-attribute name="body" value="/tiles/template/hello_body.jsp"/>
+
+<put-attribute name="footer" value="/tiles/template/footer2.jsp"/>
+
+</definition>
+
+
+<definition template="/tiles/template/layout.jsp" name="home" preparer="tiles.MenuViewPreparer">
+
+<put-attribute name="title" value="헬로우 월드: 홈"/>
+
+<put-attribute name="header" value="/tiles/template/header.jsp"/>
+
+<put-attribute name="menu" value="/tiles/template/home_menu.jsp"/>
+
+<put-attribute name="body" value="/tiles/home_body.jsp"/>
+
+<put-attribute name="footer" value="/tiles/template/footer.jsp"/>
+
+</definition>
+        </tiles-definitions>
